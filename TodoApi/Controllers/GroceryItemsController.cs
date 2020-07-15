@@ -41,37 +41,6 @@ namespace TodoApi.Controllers
             return groceryItem;
         }
 
-        // PUT: api/GroceryItems/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutGroceryItem(long id, GroceryItem groceryItem)
-        {
-            if (id != groceryItem.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(groceryItem).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!GroceryItemExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
 
         // POST: api/GroceryItems
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
