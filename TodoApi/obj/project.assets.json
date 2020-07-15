@@ -8547,11 +8547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GZHN\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\GZHN\\Documents\\GitHub\\TodoApi\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\GZHN\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\GZHN\\Documents\\GitHub\\TodoApi\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\GZHN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GZHN\\source\\repos\\TodoApi\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\GZHN\\Documents\\GitHub\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
