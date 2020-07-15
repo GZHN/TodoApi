@@ -17,8 +17,7 @@ namespace TodoApi.Controllers
 
         public GroceryItemsController(GroceryContext context)
         {
-            _context = context;
-            //GITTest
+            _context = context;           
         }
 
         // GET: api/GroceryItems
